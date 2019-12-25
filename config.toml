@@ -1,3 +1,49 @@
 baseURL = "http://gkulawik.github.io/"
 languageCode = "en-us"
 title = "Grzegorz Kulawik - Software Developer"
+
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "gkulawik"
+googleAnalytics = "UA-155033764-1"
+
+[params]
+    author = "Grzegorz Kulawik"
+    description = "Grzegorz Kulawik's personal website"
+    keywords = "blog,developer,personal"
+    info = "Full Stack Dev"
+    avatarurl = "images/avatar.jpg"
+
+    hidecredits = true
+    hidecopyright = true
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/grzegorzkulawik/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/Gregorykulawik/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/grzegorzkulawik/"
