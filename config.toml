@@ -1,5 +1,5 @@
 baseURL = "https://grzegorzkulawik.github.io"
-title = "Grzegorz Kulawik - Fullstack Developer"
+title = "Grzegorz Kulawik - Software Engineer"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -15,15 +15,12 @@ googleAnalytics = "UA-155033764-1"
 [params]
 author = "Grzegorz Kulawik"
 description = "Grzegorz Kulawik's personal website"
-keywords = "blog,developer,personal"
-info = ["Full Stack Developer"]
+keywords = "blog,software engineer,personal"
+info = ["Senior Software Engineer"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 #footerContent = "Enter a text here."
 dateFormat = "January 2, 2006"
-hideFooter = false
-hideCredits = true
-hideCopyright = true
 #since = 2019
 # Git Commit in Footer, uncomment the line below to enable it
 #commit = "https://github.com/luizdepra/hugo-coder/tree/"
